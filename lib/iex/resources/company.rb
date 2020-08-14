@@ -10,7 +10,7 @@ module IEX
       property 'ceo', from: 'CEO'
       property 'security_name', from: 'securityName'
       property 'issue_type', from: 'issueType' # common issue type of the stock
-      property 'primary_sic_code'
+      property 'sic_code', from: 'primarySicCode'
       property 'sector'
       property 'employees'
       property 'tags'
